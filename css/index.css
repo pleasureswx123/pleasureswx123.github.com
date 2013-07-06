@@ -1089,6 +1089,9 @@ body {
   .wrap {
     width: 100%; } }
 @media (max-width: 480px) {
+  .wrap {
+    width: 100%; }
+
   .headerWrap {
     margin-bottom: 45px; }
 
@@ -1138,6 +1141,9 @@ body {
     text-align: center;
     width: 33.33%; } }
 @media (max-width: 320px) {
+  .wrap {
+    width: 100%; }
+
   .headerWrap {
     margin-bottom: 30px; }
 

@@ -256,6 +256,9 @@ body {
   }
 }
 @media (max-width:480px) {
+  .wrap {
+    width:100%;
+  }
   $val90:45px;
   .headerWrap {
     margin-bottom: $val90;
@@ -309,6 +312,9 @@ body {
   }
 }
 @media (max-width:320px) {
+  .wrap {
+    width:100%;
+  }
   $val90:30px;
   .headerWrap {
     margin-bottom: $val90;
