@@ -1087,11 +1087,19 @@ body {
     letter-spacing: -5px; } }
 @media (max-width: 960px) {
   .wrap {
-    width: 100%; } }
-@media (max-width: 480px) {
-  .wrap {
-    width: 100%; }
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; } }
+@media (max-width: 720px) {
+  .clientPic {
+    height: 300px;
+    margin-bottom: -90px; }
 
+  .iDoNavWrap {
+    margin-top: 5px;
+    text-align: center;
+    font-size: 0.750em; } }
+@media (max-width: 480px) {
   .headerWrap {
     margin-bottom: 45px; }
 
@@ -1141,9 +1149,6 @@ body {
     text-align: center;
     width: 33.33%; } }
 @media (max-width: 320px) {
-  .wrap {
-    width: 100%; }
-
   .headerWrap {
     margin-bottom: 30px; }
 

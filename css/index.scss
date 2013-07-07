@@ -253,12 +253,22 @@ body {
 @media (max-width:960px) {
   .wrap {
     width:100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
   }
 }
-@media (max-width:480px) {
-  .wrap {
-    width:100%;
+@media (max-width:720px) {
+  .clientPic {
+    height:300px;
+    margin-bottom: -$val90;
   }
+  .iDoNavWrap {
+     margin-top: 5px;
+     text-align: center;
+     font-size: 0.750em;
+   }
+}
+@media (max-width:480px) {
   $val90:45px;
   .headerWrap {
     margin-bottom: $val90;
@@ -312,9 +322,6 @@ body {
   }
 }
 @media (max-width:320px) {
-  .wrap {
-    width:100%;
-  }
   $val90:30px;
   .headerWrap {
     margin-bottom: $val90;
