@@ -235,10 +235,181 @@ body {
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   .ftNav {
     letter-spacing: -5px;
+
   }
 }
 
+/*网站建设*/
 
+.webBuildPg {
+  background:#6aa2e0;
+  .iDoNav {
+    background:#2e88c7;
+  }
+  h2 {
+    padding-bottom: 18px;
+  }
+  .clientPic {
+    height:369px;
+    background-image:url(../img/clientPic1.png);
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/clientPic1.png', sizingMethod='crop');
+    _background: none;
+    margin-bottom: -$val90;
+  }
+}
+.webBuildItme {
+  overflow: hidden;
+  background:url(../img/webBuildItmeBg.png) no-repeat center bottom;
+
+  li {
+    @extend .c-fix;
+    border-bottom: 1px solid #bbb;
+    margin-bottom:-1px;
+    padding:40px 0;
+  }
+}
+.floatLeftSide {
+  float: left;
+  width:300px;
+  height:200px;
+  display: inline;
+  margin-right:20px;
+  img {
+    vertical-align: middle;
+  }
+}
+.rightSide {
+  float: right;
+  margin: 0 0 0 20px;
+}
+.mainConSide {
+  @extend .overfix;
+}
+.listConTitle {
+  font-size:1.563em;
+  color:#5d5d5d;
+  font-weight: normal;
+  padding: 5px 0 20px;
+  margin:0;
+  @extend .tx-elli;
+}
+.listCon {
+  p {
+    padding:0 0 0 15px;
+    font-size:0.875em;
+    height:30px;
+    line-height: 30px;
+    background:url(../img/listConArrow.png) no-repeat 0 50%;
+  }
+  a,a:hover {
+    display: block;
+    @extend .tx-elli;
+    color:#777;
+    text-decoration:none;
+  }
+}
+.titleCaption01 {
+  background-image: url(../img/titleCaption01.png);
+  @extend .bg-contain;
+  height: 106px;
+  margin:20px 0;
+}
+.sunNavWrap {
+  float:left;
+  display: inline;
+  margin-right:20px;
+  position: relative;
+  width:279px;
+  height:558px;
+  overflow: hidden;
+  background-image: url(../img/sunNavWrap.jpg);
+  @extend .bg-contain;
+  a {
+    position: absolute;
+    width:90px;
+    height:90px;
+    background: transparent;
+    border-radius: 50%;
+    @extend .hide-text;
+  }
+  a.one {
+    top:22px;
+    left:70px;
+  }
+  a.two {
+    top:105px;
+    left:175px;
+  }
+  a.three {
+    top:163px;
+    left:33px;
+  }
+  a.four {
+    top:267px;
+    left:172px;
+  }
+  a.five {
+    top:316px;
+    left:21px;
+  }
+  a.six {
+    top:452px;
+    left:96px;
+  }
+}
+.sunNavRightCon {
+  background-image:url(../img/sunNavRightCon.jpg);
+  height:558px;
+  @extend .bg-contain;
+}
+
+/*网站设计*/
+.webDesignWrap {
+  min-height: 550px;
+  height: auto!important;
+  height: 550px;
+  background:#80b12e url(../img/webDesignBanner.png) no-repeat 80% bottom;
+  padding-bottom: 20px;
+  margin-bottom: 50px;
+}
+.webDesignBanner {
+  color:#fff;
+  margin-left:120px;
+  padding:20px 0;
+  span {
+    display: inline-block;
+    background: #ff6310;
+    padding:5px 10px;
+    margin:30px 20px 5px;
+    font-size: 1.125em;
+  }
+  p {
+    margin:5px 70px;
+    font-size: 0.875em;
+  }
+}
+.webDesignbg1 {
+  background-image:url(../img/webDesignbg1.png);
+  @extend .bg-contain;
+  height:103px;
+  @extend .hide-text;
+  margin:0 0 50px;
+  }
+.mainBanner1 {
+
+  background-image:url(../img/mainBanner1.jpg);
+}
+.mainBanner2 {
+  background-color: #f0f0f0;
+  background-image:url(../img/mainBanner2.jpg);
+}
+.mainBanner3 {
+  background-image:url(../img/mainBanner3.jpg);
+}
+.mainBanner1,.mainBanner2,.mainBanner3 {
+  height:380px;
+  @extend .bg-contain;
+}
 
 
 
